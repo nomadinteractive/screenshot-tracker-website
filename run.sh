@@ -114,3 +114,6 @@ for f in ./docs/js/*.*
 do
 	additional_downloads $f '../'
 done
+
+# Add github custom domain setting
+echo "screenshot-tracker.nomadinteractive.co" > ./docs/CNAME
