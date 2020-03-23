@@ -51,7 +51,7 @@ function additional_downloads {
 
 
 # Clean up previously generated static site
-# rm ./docs
+rm -rf ./docs
 
 #
 #   httrack - to export the wordpress site
