@@ -1,0 +1,4 @@
+-*feed*
+-*xmlrpc*
+-*wp-json/*
+-*frontend.min.js*
