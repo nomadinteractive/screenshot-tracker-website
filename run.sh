@@ -101,6 +101,9 @@ do
 	# Replace all remaining original site urls to target
 	sed -i '' -e "s~$STATIC_SITE_SOURCE_DOMAIN~$STATIC_SITE_TARGET_DOMAIN~g" $f
 
+	# Fix google fonts https
+	sed -i '' -e "s~http://fonts.gstatic.com~https://fonts.gstatic.com~g" $f
+
 done
 
 # do additional downloads in css files
